@@ -6,7 +6,7 @@ public class Classe {
 		if(aux==25){
 			System.out.println("Olá");	
 		}else{
-		System.out.println("aux");	
+			System.out.println(aux);	
 		}
 		}
 		
