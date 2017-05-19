@@ -6,7 +6,7 @@ public class Soma {
 		int numero2 = 15;
 		int numero3 = 20;
 		double divisao = 2.5;
-		int soma = numero1 + numero2 + numero3;
+		double soma = numero1 + numero2 + numero3;
 		System.out.println(soma/divisao);
 	}
 
