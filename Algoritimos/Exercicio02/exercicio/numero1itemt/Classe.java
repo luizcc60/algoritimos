@@ -15,7 +15,6 @@ public class Classe {
 		num2 = scanner.nextInt();
 
 		for (int aux = num; aux <= num2; aux++) {
-
 		
 				System.out.println(aux);
 		}
