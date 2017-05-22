@@ -1,7 +1,7 @@
 package exercicioscanner7;
 
 import java.util.Scanner;
-import javax.swing.*;
+
 
 public class Classe {
 	public static void main(String[] args) {
