@@ -1,9 +1,8 @@
-package exercicioscannerr13;
+package exercicioscannerr14;
 
 import java.util.Scanner;
 
 public class Classe {
-
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 
@@ -21,7 +20,9 @@ public class Classe {
 		int soma = mult + (num2*num2*num2);
 		System.out.print(soma);
 	
-			
+		
+		
+		
 		scanner.close();
 	}
 }
