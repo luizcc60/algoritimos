@@ -1,4 +1,4 @@
-package exercicioscannerr12;
+package exercicioscannerr12b;
 
 import java.util.Scanner;
 
@@ -20,6 +20,9 @@ public class Classe {
 		int mult = num*num3;
 		int soma = mult + (num2*num2*num2);
 		System.out.println(soma);
+		
+		boolean comp = soma >= 0;
+		System.out.println(comp);
 		
 		
 		

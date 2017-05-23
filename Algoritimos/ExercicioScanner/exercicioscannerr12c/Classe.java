@@ -1,4 +1,4 @@
-package exercicioscannerr12;
+package exercicioscannerr12c;
 
 import java.util.Scanner;
 
@@ -21,7 +21,12 @@ public class Classe {
 		int soma = mult + (num2*num2*num2);
 		System.out.println(soma);
 		
-		
+				
+		if(soma >=10 || soma>1 ){
+		System.out.println("True");
+	}else{
+		System.out.println("False");
+		}
 		
 		
 		scanner.close();

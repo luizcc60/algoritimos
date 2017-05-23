@@ -1,4 +1,4 @@
-package exercicioscannerr13;
+package exercicioscannerr12e;
 
 import java.util.Scanner;
 
@@ -19,9 +19,17 @@ public class Classe {
 		
 		int mult = num*num3;
 		int soma = mult + (num2*num2*num2);
-		System.out.print(soma);
-	
+		System.out.println(soma);
+		
+				
+		if(soma % 10 == 0 ){
+			System.out.println("True");
 			
+		}else{
+			System.out.println("False");
+		}
+		
+		
 		scanner.close();
 	}
 }
