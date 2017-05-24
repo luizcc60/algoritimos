@@ -24,7 +24,7 @@ public class ClasseA {
 		System.out.println(soma);
 		{
 
-			if (num <= soma && (soma % 3 == 0 || soma > 10)) {
+			if (num <= soma & (soma % 3 == 0 || soma > 10)) {
 				System.out.println("True");
 			} else {
 				System.out.println("False");

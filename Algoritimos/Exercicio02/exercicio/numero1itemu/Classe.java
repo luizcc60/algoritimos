@@ -16,7 +16,7 @@ public class Classe {
 				else
 					System.out.print("1");
 			}
-
+		
 		}
 
 	}
