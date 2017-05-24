@@ -17,7 +17,7 @@ public class Classe {
 		num2 = scanner.nextInt();
 		scanner.close();
 		
-		int sub = num / num2;
+		double sub = num / num2;
 		
 			System.out.println(sub);
 			if(sub % 2 == 0)

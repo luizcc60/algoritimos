@@ -1,8 +1,9 @@
-package exercicioscannerr12e;
+package exercicioscannerr12;
+
 
 import java.util.Scanner;
 
-public class Classe {
+public class ClasseD {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -22,11 +23,10 @@ public class Classe {
 		System.out.println(soma);
 		
 				
-		if(soma % 10 == 0 ){
-			System.out.println("True");
-			
-		}else{
-			System.out.println("False");
+		if(soma <10 || soma>1 ){
+		System.out.println("True");
+	}else{
+		System.out.println("False");
 		}
 		
 		

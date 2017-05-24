@@ -1,9 +1,8 @@
-package exercicioscannerr12d;
-
+package exercicioscannerr13;
 
 import java.util.Scanner;
 
-public class Classe {
+public class ClasseD {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
@@ -17,19 +16,16 @@ public class Classe {
 		int num3;
 		System.out.println("Digite 3° número");
 		num3 = scanner.nextInt();
-		
-		int mult = num*num3;
-		int soma = mult + (num2*num2*num2);
-		System.out.println(soma);
-		
-				
-		if(soma <10 || soma>1 ){
-		System.out.println("True");
-	}else{
-		System.out.println("False");
+		int num4;
+		System.out.println("Digite 4º número");
+		num4 = scanner.nextInt();
+
+		int soma = num + num2 + num3 + num4;
+		if(soma>10){
+			System.out.println("False");
+		}else{
+			System.out.println("True");
 		}
-		
-		
 		scanner.close();
 	}
 }

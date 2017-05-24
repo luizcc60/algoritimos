@@ -13,12 +13,14 @@ public class Classe {
 		int num2;
 		System.out.println("Digite 2° número:");
 		num2 = scanner.nextInt();
-
-		for (int aux = num; aux <= num2; aux++) {
+		int resto = num % num2;
+		int resultado = resto*10;
+		System.out.println(resultado);
 		
-				System.out.println(aux*10);
+		scanner.close();
+		
 		}
 
-		scanner.close();
+		
 	}
-}
+

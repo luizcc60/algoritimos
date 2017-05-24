@@ -1,8 +1,8 @@
-package exercicioscannerr12b;
+package exercicioscannerr12;
 
 import java.util.Scanner;
 
-public class Classe {
+public class ClasseB {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
