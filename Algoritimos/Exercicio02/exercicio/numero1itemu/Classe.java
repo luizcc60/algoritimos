@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class Classe {
 	public static void main(String[] args) {
 		System.out.println("Entre com a quantidade de linhas:");
+		@SuppressWarnings("resource")
 		int linhas = new Scanner(System.in).nextInt();
 		for (int cont = 1; cont <= linhas; cont++) {
 			{
@@ -15,6 +16,7 @@ public class Classe {
 					System.out.print("1");
 				else
 					System.out.print("1");
+				
 			}
 		
 		}

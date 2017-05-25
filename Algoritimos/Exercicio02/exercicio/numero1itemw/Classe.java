@@ -4,7 +4,9 @@ import java.util.Scanner;
 
 public class Classe {
 	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
 		System.out.println("Entre com a quantidade de linhas:");
+		@SuppressWarnings("resource")
 		int linhas = new Scanner(System.in).nextInt();
 		for (int cont = 11; cont >= linhas; cont--) {
 			{
@@ -15,8 +17,9 @@ public class Classe {
 					System.out.print("0" + cont + " ");
 				else
 					System.out.print(cont + " ");
+				
 			}
-
+			scanner.close();
 		}
 
 	}
