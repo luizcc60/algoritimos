@@ -21,6 +21,7 @@ public class Classe {
 		System.out.println("True");
 		}else{
 			System.out.println("False");
+			scanner.close();
 		}
 		
 	

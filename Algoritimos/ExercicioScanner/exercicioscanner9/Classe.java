@@ -21,6 +21,7 @@ import java.util.Scanner;
 			System.out.println("True");
 			}else{
 				System.out.println("False");
+				scanner.close();
 			}
 			
 		

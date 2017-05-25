@@ -2,7 +2,7 @@ package exercicioscannerr14;
 
 import java.util.Scanner;
 
-public class ClasseA {
+public class ClasseAeB {
 
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);

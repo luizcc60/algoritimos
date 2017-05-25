@@ -17,7 +17,7 @@ import java.util.Scanner;
 			num2 = scanner.nextInt();
 			System.out.println("Resultado ao Quadrado: " +num2*num2);
 			
-			
+			scanner.close();
 			
 			
 		}
