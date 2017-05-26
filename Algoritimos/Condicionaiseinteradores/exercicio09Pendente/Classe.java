@@ -1,4 +1,4 @@
-package exercicio09;
+package exercicio09Pendente;
 
 import java.util.Scanner;
 
@@ -50,6 +50,7 @@ public class Classe {
 			}
 			if (clima.equals("chovendo") && temperatura >= 25) {
 				System.out.println("Usará uma blusa regata");
+			
 				
 			
 		
