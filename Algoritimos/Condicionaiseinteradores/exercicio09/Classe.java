@@ -1,4 +1,4 @@
-package exercicio09Pendente;
+package exercicio09;
 
 import java.util.Scanner;
 
@@ -13,52 +13,48 @@ public class Classe {
 		int temperatura;
 		System.out.println("Digite a temperatura : ");
 		temperatura = scanner.nextInt();
-		
-		if (clima.equals("Sol") && temperatura == 0) {
-			System.out.println("Usará blusa");
-			}
+		switch (clima) {
+		case "Sol":
+			System.out.println("Usará blusa mais");
 
 			if (clima.equals("Sol") && temperatura > 30) {
-			System.out.println("Usará saia");
+				System.out.println("Usará saia");
 			}
 
 			if (clima.equals("Sol") && temperatura <= 30 && temperatura >= 23) {
-			System.out.println("Usará Shorts");
+				System.out.println("Usará Shorts");
 			}
-			
-			if (clima.equals("Sol") && temperatura < 23 && temperatura >0) {
-					System.out.println("Usará calça Jeans");
+
+			if (clima.equals("Sol") && temperatura < 23 && temperatura > 0) {
+				System.out.println("Usará calça Jeans");
 			}
-			
-		if (clima.equals("nublado") && temperatura > 25) {
+		case "nublado":
+
+			if (clima.equals("nublado") && temperatura > 25) {
 				System.out.println("Usará vestido");
-				}
+			}
 			if (clima.equals("nublado") && temperatura <= 25) {
 				System.out.println("Usará calça de moletom e sobretudo");
-				}		
-						
-			
-		if (clima.equals("chovendo") && temperatura == 0) {
-			System.out.println("Usará bota e calça  jean");
-			
 			}
-			if (clima.equals("chovendo") && temperatura <= 10 && temperatura >0) {
+		case "chovendo":
+			System.out.println("Usará bota e calça  jean ");
+
+			if (clima.equals("chovendo") && temperatura <= 10 && temperatura > 0) {
 				System.out.println("Usará blusa e um casaco de lã");
 			}
-			if (clima.equals("chovendo") && temperatura > 10 && temperatura <25) {
+			if (clima.equals("chovendo") && temperatura > 10 && temperatura < 25) {
 				System.out.println("Usará camiseta");
 			}
 			if (clima.equals("chovendo") && temperatura >= 25) {
 				System.out.println("Usará uma blusa regata");
-			
-				
-			
-		
-			
+
+			}
+			break;
+		default:
+			System.out.println("Ele vai ficar em casa");
+
 		}
 		scanner.close();
-		}
-
-	
-		
 	}
+
+}
